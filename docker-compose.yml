@@ -6,5 +6,5 @@ services:
     ports:
       - 3000:3000
     environment:
-      - 'DEFAULT_MODEL='
+      - 'DEFAULT_MODEL=orca-mini:latest'
       - 'OLLAMA_HOST='
